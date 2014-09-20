@@ -7,6 +7,7 @@ gem 'rails', '4.0.8'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'bootstrap-sass', '2.3.2.0'
 end
 
 group :test do
@@ -14,6 +15,7 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'bcrypt'
 gem 'sass-rails', '4.0.3'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
