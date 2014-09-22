@@ -18,6 +18,8 @@ class User < ActiveRecord::Base
     Digest::SHA1.hexdigest(token.to_s)
   end
 
+  has_many :posts
+
   private
 
     def create_remember_token
