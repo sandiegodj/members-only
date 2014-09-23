@@ -13,6 +13,7 @@ class PostsController < ApplicationController
 
   def index
     @post = Post.all
+    @post = Post.paginate(page: params[:page])
   end
 
   private
