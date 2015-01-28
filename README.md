@@ -1,1 +1,1 @@
-This app highlights basic rails security and how to keep certain things hidden from certain users and vice versa.
+Devise said I should roll out my own system before using theirs.  So I did.
